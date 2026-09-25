@@ -3,7 +3,7 @@
 // carries the version so browsers notice when it changes. Works at the domain
 // root or under a mount path (e.g. /app/ on Webflow Cloud): everything is
 // resolved against this worker's scope.
-const VERSION = '1c4f450c29';
+const VERSION = '3f5a2d948c';
 const CACHE = 'reframe-systems-' + VERSION;
 const CONCURRENCY = 6;
 const SCOPE = self.registration.scope; // e.g. "https://host/app/"
@@ -18,6 +18,13 @@ function keyFor(u) {
   let path = url.pathname;
   try { path = decodeURIComponent(path); } catch (e) {}
   return new URL(path, url.origin).href;
+}
+
+// Webflow Cloud redirects /app/products.html -> /app/products. A stored
+// redirected response can't answer a page navigation, so keep just the body.
+function unredirect(res) {
+  if (!res.redirected) return res;
+  return new Response(res.body, { status: res.status, statusText: res.statusText, headers: res.headers });
 }
 
 async function broadcast() {
@@ -40,7 +47,7 @@ async function precache() {
           // CORS mode so CDN files are stored readable (Webflow's CDN allows it),
           // which the video byte-range handling below needs.
           const res = await fetch(url, { mode: 'cors', cache: 'reload' });
-          if (res.ok) await cache.put(keyFor(url), res);
+          if (res.ok) await cache.put(keyFor(url), unredirect(res));
           else failed++;
         }
       } catch (e) { failed++; }
@@ -125,8 +132,8 @@ self.addEventListener('fetch', (event) => {
     try {
       const res = await fetch(req);
       // Pick up same-origin files not in the list (e.g. .webm) for next time.
-      if (sameOrigin && res.status === 200 && !req.headers.has('range')) cache.put(key, res.clone());
-      return res;
+      if (sameOrigin && res.status === 200 && !req.headers.has('range')) cache.put(key, unredirect(res.clone()));
+      return req.mode === 'navigate' ? unredirect(res) : res;
     } catch (e) {
       if (req.mode === 'navigate') return (await cache.match(keyFor('index.html'))) || Response.error();
       return Response.error();
