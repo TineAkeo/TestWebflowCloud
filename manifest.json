@@ -1,0 +1,16 @@
+{
+  "name": "Reframe Systems",
+  "short_name": "Reframe",
+  "start_url": "/app/index.html",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://cdn.prod.website-files.com/66fd51b950652c92507af820/678bfcade2e40ea4a8ba459a_Webclip.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
