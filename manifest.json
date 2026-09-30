@@ -1,14 +1,14 @@
 {
-  "name": "Reframe Systems",
-  "short_name": "Reframe Syst",
-  "start_url": "/app/index.html",
+  "name": "Chapter 1",
+  "short_name": "Chapter 1",
+  "start_url": "/app/chapter1.html",
   "scope": "/app/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://cdn.prod.website-files.com/66fd51b950652c92507af820/678bfcade2e40ea4a8ba459a_Webclip.png",
+      "src": "https://cdn.prod.website-files.com/img/webclip.png",
       "sizes": "256x256"
     }
   ]

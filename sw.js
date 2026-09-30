@@ -3,8 +3,8 @@
 // build time so browsers notice a new build. Everything is resolved against
 // this worker's scope, so it works at a domain root or under a mount path
 // (e.g. /app/ on Webflow Cloud).
-const APP = 'reframe-systems-app';
-const VERSION = '9d7190cbcd';
+const APP = 'reframe-test-webflow-io-app';
+const VERSION = '4fa5857582';
 const CACHE = APP + '-' + VERSION;
 const CONCURRENCY = 6;
 const SCOPE = self.registration.scope; // e.g. "https://host/app/"
