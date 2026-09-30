@@ -1,5 +1,5 @@
 {
-  "url": "https://www.reframe.systems",
+  "url": "https://reframe-test.webflow.io/chapter1",
   "target": "webflow-cloud",
   "base": "/app",
   "relay": "https://webflowcloudtest-105e9e.webflow.io/hooks"
