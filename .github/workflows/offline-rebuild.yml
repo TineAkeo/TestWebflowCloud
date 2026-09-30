@@ -1,0 +1,42 @@
+# Rebuilds the offline app from the live site and deploys it when it changed.
+# Written by site-offline-kit's setup_autorebuild.py.
+name: Rebuild offline app
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+  repository_dispatch:        # for a "site published" webhook relay
+    types: [site-published]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offline-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build from the live site
+        # --strict: a temporary failure stops here, so nothing half-built is pushed.
+        run: >
+          python3 .kit/offline_site.py "https://www.reframe.systems"
+          --target webflow-cloud --base "/app" --out . --strict
+
+      - name: Commit and push if the site changed
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes on the site; nothing to deploy."
+            exit 0
+          fi
+          git config user.name "offline-kit"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild from reframe.systems: site changed"
+          git push
