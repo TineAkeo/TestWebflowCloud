@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "9cf1e0f059",
-"cache": "reframe-test-webflow-io-app-9cf1e0f059",
+"version": "70d59df818",
+"cache": "reframe-test-webflow-io-app-70d59df818",
 "files": [
 "/app/assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8-ee2eb7fa.js",
 "/app/assets/fonts.googleapis.com/css2-f0555ffb.css",
@@ -29,6 +29,7 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2527d6a46ebd5dc4fd70b_apartment-front-p-500.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2527d6a46ebd5dc4fd70b_apartment-front-p-800.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2527d6a46ebd5dc4fd70b_apartment-front.jpg",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2527dc3b47d40080fffd2_tree-silhouette.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2568ee426cedcb331deec_paralax1.af2b49b2250022d821ce.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab2e4d36092dfd55c30c9fe_chapter1-skyline.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab3a828049c295fb62270a1_ch2-number-2.svg",
@@ -50,9 +51,9 @@
 "/app/assets/fonts.gstatic.com/s/anybody/v13/VuJxdNvK2Ib2ppdWSK7dOaNkaRtlvg.woff2": "b9db09c9892d",
 "/app/assets/fonts.gstatic.com/s/anybody/v13/VuJxdNvK2Ib2ppdWSKHdOaNkaRs.woff2": "1388504e4373",
 "/app/assets/fonts.gstatic.com/s/anybody/v13/VuJxdNvK2Ib2ppdWSK_dOaNkaRtlvg.woff2": "cf212826a153",
-"/app/chapter1.html": "2b3b15174e5c",
-"/app/chapter2.html": "fffb18992f5f",
-"/app/index.html": "92875c641a61",
+"/app/chapter1.html": "e3d38dbb1baa",
+"/app/chapter2.html": "5f261ff702aa",
+"/app/index.html": "339acb5fc1df",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
