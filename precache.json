@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "e01e1b210d",
-"cache": "reframe-test-webflow-io-app-e01e1b210d",
+"version": "af0e5b8c59",
+"cache": "reframe-test-webflow-io-app-af0e5b8c59",
 "files": [
 "/app/assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8-ee2eb7fa.js",
 "/app/assets/fonts.googleapis.com/css2-cf208ba8.css",
@@ -64,8 +64,8 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "aa6940098221",
-"/app/chapter2.html": "256ed18e07a6",
+"/app/chapter1.html": "19f0eb529ff6",
+"/app/chapter2.html": "18dae283d70a",
 "/app/index.html": "1b59f68face2",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
