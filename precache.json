@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "a100db8e8b",
-"cache": "reframe-test-webflow-io-app-a100db8e8b",
+"version": "685a84e311",
+"cache": "reframe-test-webflow-io-app-685a84e311",
 "files": [
 "/app/assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8-ee2eb7fa.js",
 "/app/assets/fonts.googleapis.com/css2-303ab842.css",
@@ -49,10 +49,10 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab3a82895d9a96a2871f648_ch2-blueprint-text-panel.svg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab3a82929c64dbc41c6779c_ch2-blueprint-gallery.svg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab3bfe0ff12400203e6a1a8_chapter1-video-panel-bg.mp4",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6aba508b0afac9bf30e0bac0_4_Hampden%205%20story_Roxbury-Boston%20MA_2026.avif",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abeb3eef33cdb03f7317da1_Screenshot%202026-10-01%20at%2021.17.24.avif",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.dbe9d3e0b.css",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.ee37c60369a67e1d.js",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.e3eeac64cfe90b42.js",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.609844688aba0b3e.js",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.f3b61ca255cf0fc9.js",
 "https://cdn.prod.website-files.com/img/favicon.ico",
 "https://cdn.prod.website-files.com/img/webclip.png",
 "/app/precache.json"
@@ -74,9 +74,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "eee284dd968e",
-"/app/chapter2.html": "720e2b9de9a0",
-"/app/index.html": "57dcc1bb0e12",
+"/app/chapter1.html": "ad442ade3955",
+"/app/chapter2.html": "28f4090f1422",
+"/app/index.html": "7ee273f9214b",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
