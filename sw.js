@@ -4,7 +4,7 @@
 // this worker's scope, so it works at a domain root or under a mount path
 // (e.g. /app/ on Webflow Cloud).
 const APP = 'reframe-test-webflow-io-app';
-const VERSION = 'd6aca42f1e';
+const VERSION = 'b397b0417b';
 const CACHE = APP + '-' + VERSION;
 const CONCURRENCY = 6;
 const SCOPE = self.registration.scope; // e.g. "https://host/app/"
