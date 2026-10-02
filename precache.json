@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "2781812891",
-"cache": "reframe-test-webflow-io-app-2781812891",
+"version": "bf2e601061",
+"cache": "reframe-test-webflow-io-app-bf2e601061",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/lenis_at_1.1.14/dist/lenis.min.js",
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
@@ -93,9 +93,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "76b4eb3948fc",
-"/app/chapter2.html": "0ea026db2122",
-"/app/index.html": "ca562c85d49d",
+"/app/chapter1.html": "67a6aea0dfc9",
+"/app/chapter2.html": "89263e587df5",
+"/app/index.html": "b7f19bcaf5e4",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
