@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "108a4e50ae",
-"cache": "reframe-test-webflow-io-app-108a4e50ae",
+"version": "b6f9017c4e",
+"cache": "reframe-test-webflow-io-app-b6f9017c4e",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -55,7 +55,7 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25-p-500.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25-p-800.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25.png",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.ad02b1d66.css",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.a4ee8e050.css",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.609844688aba0b3e.js",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.f3b61ca255cf0fc9.js",
 "https://cdn.prod.website-files.com/img/favicon.ico",
@@ -91,9 +91,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "acda8ea9e9ae",
-"/app/chapter2.html": "d37dd6c02325",
-"/app/index.html": "323bb7f066f9",
+"/app/chapter1.html": "f73acfc9a0af",
+"/app/chapter2.html": "619e06382068",
+"/app/index.html": "c5cf0dab9189",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
