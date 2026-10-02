@@ -1,4 +1,5 @@
-<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Oct 02 2026 08:46:34 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="reframe-test.webflow.io" data-wf-page="6ab2ba2e94d203c671cd56ba" data-wf-site="6ab23cc51b49be99e2d28b09" lang="en"><head><script>try{var m=/[?&]offline=([01])(?:&|$)/.exec(location.search);if(m)sessionStorage.setItem('offline-setup',m[1])}catch(e){}</script><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect"/><title>Chapter 2 — Modern Teachers</title><meta content="Second chapter — horizontal scroll narrative: modernism&#x27;s roots, its teachers and the first generation of Slovak modernist architects." name="description"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.8bcf1afa6.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon"/><link rel="preconnect" href="https://fonts.googleapis.com">
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Oct 02 2026 09:19:27 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="reframe-test.webflow.io" data-wf-page="6ab2ba2e94d203c671cd56ba" data-wf-site="6ab23cc51b49be99e2d28b09" lang="en"><head><script>try{var m=/[?&]offline=([01])(?:&|$)/.exec(location.search);if(m)sessionStorage.setItem('offline-setup',m[1])}catch(e){}</script><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect"/><title>Chapter 2 — Modern Teachers</title><meta content="Second chapter — horizontal scroll narrative: modernism&#x27;s roots, its teachers and the first generation of Slovak modernist architects." name="description"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.8bcf1afa6.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon"/><script src="/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="/app/assets/fonts.googleapis.com/css2-f0555ffb.css" rel="stylesheet">
 <style>
@@ -93,7 +94,7 @@ body{
 .rfm-player video{width:100%;height:100%;object-fit:cover;display:block}
 .rfm-ctrls{position:absolute;inset:auto 0 0 0;padding:30px 16px 12px;display:flex;align-items:center;gap:14px;background:linear-gradient(to top,rgba(0,0,0,.75),transparent);opacity:0;transition:opacity .2s}
 .rfm-player:hover .rfm-ctrls,.rfm-player.paused .rfm-ctrls{opacity:1}
-.rfm-l,.rfm-r2{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.rfm-l,.rfm-r2{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .rfm-b,.rfm-ib{background:none;border:none;color:#fff;font-size:12px;cursor:pointer;padding:0;font-family:inherit;line-height:1;transition:opacity .15s}
 .rfm-b:hover,.rfm-ib:hover{opacity:.6}
 .rfm-tc{font-size:12px;color:#fff;white-space:nowrap;font-variant-numeric:tabular-nums;font-family:inherit}
@@ -284,11 +285,8 @@ body{
 <style>
 .splash{display:none;position:fixed;inset:0;z-index:99999;pointer-events:none}
 .splash.is-active{display:block}
-.splash__curtain{position:fixed;top:0;left:0;width:100%;height:100%;background:rgb(206,0,12);transition:transform .5s cubic-bezier(.25,.46,.45,.94)}
-.splash__curtain.is-open{transform:translateX(-100%)}
-.splash__logo{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 1s ease-in-out}
-.splash__logo.is-visible{opacity:1}
-.splash__logo.is-hidden{opacity:0}
+.splash__curtain{position:fixed;top:0;left:0;width:100%;height:100%;background:rgb(206,0,12)}
+.splash__logo{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;opacity:0}
 .splash__wordmark{display:flex;align-items:center;justify-content:center;font-weight:800;font-size:clamp(28px,9vw,64px);letter-spacing:2px;color:#fff;user-select:none}
 .splash__o{position:relative;width:.9em;height:.9em;margin:0 .03em;border-radius:50%;background:#1b1712;overflow:hidden}
 .splash__icons{position:absolute;left:0;top:0;width:100%;animation:splash-icon-cycle 6s ease-in-out infinite}
@@ -301,35 +299,9 @@ body{
  78%,93%{transform:translateY(-60%)}
  100%{transform:translateY(-80%)}
 }
-.splash__tagline{position:fixed;left:24px;bottom:24px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;line-height:1.7;color:#fff;opacity:0;transition:opacity .8s ease-in-out .3s}
+.splash__tagline{position:fixed;left:24px;bottom:24px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;line-height:1.7;color:#fff;opacity:0}
 .splash.is-done{display:none}
 </style>
-<script>
-(function(){
-'use strict';
-var splash  = document.querySelector('.splash');
-if(!splash) return;
-splash.classList.add('is-active');
-var curtain = document.getElementById('splashCurtain');
-var logo    = document.getElementById('splashLogo');
-var tagline = document.getElementById('splashTagline');
-
-setTimeout(function(){
-  logo.classList.add('is-visible');
-  tagline.classList.add('is-visible');
-}, 80);
-
-setTimeout(function(){
-  logo.classList.add('is-hidden');
-  curtain.classList.add('is-open');
-  tagline.classList.remove('is-visible');
-}, 1500);
-
-setTimeout(function(){
-  splash.classList.add('is-done');
-}, 2000);
-})();
-</script>
 <script>
 (function(){
 'use strict';
@@ -622,6 +594,30 @@ V.play().catch(function(){});e.stopPropagation();e.preventDefault();
 },true);}
 if(document.readyState!=='loading')init();
 else document.addEventListener('DOMContentLoaded',init);
+})();
+</script>
+<script>
+/* === GSAP Splash === */
+(function(){
+'use strict';
+var splash=document.querySelector('.splash');
+if(!splash)return;
+splash.classList.add('is-active');
+var curtain=document.getElementById('splashCurtain');
+var logo=document.getElementById('splashLogo');
+var tagline=document.getElementById('splashTagline');
+if(typeof gsap==='undefined'){
+  setTimeout(function(){if(logo)logo.style.opacity='1';if(tagline)tagline.style.opacity='1';},80);
+  setTimeout(function(){if(logo)logo.style.opacity='0';if(curtain)curtain.style.transform='translateX(-100%)';if(tagline)tagline.style.opacity='0';},1500);
+  setTimeout(function(){splash.classList.add('is-done');},2000);
+  return;
+}
+gsap.timeline({onComplete:function(){splash.classList.add('is-done');document.dispatchEvent(new CustomEvent('splash:done'));}})
+  .fromTo(logo,    {opacity:0},        {opacity:1,duration:0.7,ease:'power2.out'},0.08)
+  .fromTo(tagline, {opacity:0,y:10},   {opacity:1,y:0,duration:0.6,ease:'power2.out'},0.25)
+  .to(curtain,{xPercent:-100,duration:0.55,ease:'power2.inOut'},1.2)
+  .to(logo,   {opacity:0,duration:0.35,ease:'power1.in'},1.25)
+  .to(tagline,{opacity:0,y:-6,duration:0.3,ease:'power1.in'},1.3);
 })();
 </script><script>
 (function(){
