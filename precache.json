@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "6c486cd691",
-"cache": "reframe-test-webflow-io-app-6c486cd691",
+"version": "405d3c1ab3",
+"cache": "reframe-test-webflow-io-app-405d3c1ab3",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -56,8 +56,8 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25-p-800.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.d3e9bd53a.css",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.ee37c60369a67e1d.js",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.e3eeac64cfe90b42.js",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.609844688aba0b3e.js",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.f3b61ca255cf0fc9.js",
 "https://cdn.prod.website-files.com/img/favicon.ico",
 "https://cdn.prod.website-files.com/img/webclip.png",
 "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg",
@@ -90,9 +90,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "57e43bc34129",
-"/app/chapter2.html": "e252345c9975",
-"/app/index.html": "c78775c6e173",
+"/app/chapter1.html": "ee79f2e3bc89",
+"/app/chapter2.html": "3a9f30d7f19d",
+"/app/index.html": "c7504098e309",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
