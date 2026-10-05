@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "9b2abd2465",
-"cache": "reframe-test-webflow-io-app-9b2abd2465",
+"version": "3eac2fe57c",
+"cache": "reframe-test-webflow-io-app-3eac2fe57c",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -55,7 +55,7 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25-p-500.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25-p-800.png",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6abf6d556c2b47e52fe6dc24_Screenshot%202026-10-02%20at%2010.37.25.png",
-"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.a0a41fa98.css",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/css/reframe-test.webflow.shared.8059a9622.css",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.3cc512ae.609844688aba0b3e.js",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/js/webflow.schunk.f3b61ca255cf0fc9.js",
 "https://cdn.prod.website-files.com/img/favicon.ico",
@@ -66,7 +66,6 @@
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2527d6a46ebd5dc4fd70b_apartment-front.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2568e5262df4e4155c0d2_paralax2.b297ce0d065d1a475275.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2568ee426cedcb331deec_paralax1.af2b49b2250022d821ce.jpg",
-"https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2e4d36092dfd55c30c9fe_chapter1-skyline.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6aba346c8d821c6cd154232f_chapter1-video-panel-bg-compressed.mp4",
 "https://videos.pexels.com/video-files/7695548/7695548-uhd_3840_2160_25fps.mp4",
 "/app/precache.json"
@@ -90,9 +89,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "9d60b9434710",
-"/app/chapter2.html": "5b47c6f31d96",
-"/app/index.html": "4b7a69254706",
+"/app/chapter1.html": "f206a74489cb",
+"/app/chapter2.html": "c6d6cfd71ada",
+"/app/index.html": "7ce983597d5a",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
