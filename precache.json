@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "cf80205835",
-"cache": "reframe-test-webflow-io-app-cf80205835",
+"version": "b1b5a873ee",
+"cache": "reframe-test-webflow-io-app-b1b5a873ee",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -34,6 +34,8 @@
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09%2F6ab3caa20811b390bf7c25f6_16839566_1920_1080_24fps%20%281%29_poster.0000000.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09%2F6aba3ac896ae2ca82c60e2e0_16704120_3840_2160_25fps%20%282%29_mp4.mp4",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09%2F6aba3ac896ae2ca82c60e2e0_16704120_3840_2160_25fps%20%282%29_poster.0000000.jpg",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09%2F6ac4ae3fb7ea3c0b7898c17f_16390766_2562_1440_24fps%20%281%29_mp4.mp4",
+"https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09%2F6ac4ae3fb7ea3c0b7898c17f_16390766_2562_1440_24fps%20%281%29_poster.0000000.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab25003a6bd8d2cd3cb7a0a_skyline-mono-p-1080.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab25003a6bd8d2cd3cb7a0a_skyline-mono-p-500.jpg",
 "https://cdn.prod.website-files.com/6ab23cc51b49be99e2d28b09/6ab25003a6bd8d2cd3cb7a0a_skyline-mono-p-800.jpg",
@@ -89,9 +91,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "23b9f7390731",
-"/app/chapter2.html": "52e006d9e252",
-"/app/index.html": "001099c31763",
+"/app/chapter1.html": "66e2bc0b0b20",
+"/app/chapter2.html": "d5b692355110",
+"/app/index.html": "363c246424fb",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
