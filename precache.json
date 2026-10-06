@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "0d15ac4109",
-"cache": "reframe-test-webflow-io-app-0d15ac4109",
+"version": "4887eebf69",
+"cache": "reframe-test-webflow-io-app-4887eebf69",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -70,7 +70,7 @@
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2568ee426cedcb331deec_paralax1.af2b49b2250022d821ce.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6aba346c8d821c6cd154232f_chapter1-video-panel-bg-compressed.mp4",
 "https://videos.pexels.com/video-files/7695548/7695548-uhd_3840_2160_25fps.mp4",
-"https://zitros.b-cdn.net/Zitros%20UGC%20edit.mp4",
+"https://zitros.b-cdn.net/WhatsApp%20Video%202026-01-28%20at%2018.29.05%20(1).mp4",
 "/app/precache.json"
 ],
 "hashes": {
@@ -92,9 +92,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "23258959b4b2",
-"/app/chapter2.html": "961bb8fed045",
-"/app/index.html": "2c9934440b0f",
+"/app/chapter1.html": "c39dae733242",
+"/app/chapter2.html": "bcf3a9e68606",
+"/app/index.html": "af93744a310e",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
