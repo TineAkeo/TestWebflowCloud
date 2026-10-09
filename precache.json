@@ -1,7 +1,7 @@
 {
 "app": "reframe-test-webflow-io-app",
-"version": "86f6eb5db6",
-"cache": "reframe-test-webflow-io-app-86f6eb5db6",
+"version": "0275ffe38f",
+"cache": "reframe-test-webflow-io-app-0275ffe38f",
 "files": [
 "/app/assets/cdn.jsdelivr.net/npm/splitting_at_1.0.6/dist/splitting.min.js",
 "/app/assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
@@ -82,6 +82,7 @@
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2568e5262df4e4155c0d2_paralax2.b297ce0d065d1a475275.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6ab2568ee426cedcb331deec_paralax1.af2b49b2250022d821ce.jpg",
 "https://s3.amazonaws.com/webflow-prod-assets/6ab23cc51b49be99e2d28b09/6aba346c8d821c6cd154232f_chapter1-video-panel-bg-compressed.mp4",
+"https://sanja-test.b-cdn.net/agent-327-operation-barbershop.mp4",
 "https://sanja-test.b-cdn.net/big_buck_bunny_720p_surround%20(1).mp4",
 "https://videos.pexels.com/video-files/7695548/7695548-uhd_3840_2160_25fps.mp4",
 "/app/precache.json"
@@ -105,9 +106,9 @@
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD2xWr53BJl.woff2": "0a2826ebfcba",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0vrx52jJ3Q.woff2": "7c4c994fe134",
 "/app/assets/fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2": "f898de06ae48",
-"/app/chapter1.html": "380b5d675708",
-"/app/chapter2.html": "eb5840db9ed9",
-"/app/index.html": "2e48cce6c78c",
+"/app/chapter1.html": "40ce70330304",
+"/app/chapter2.html": "6c4376999b53",
+"/app/index.html": "8383e27d10f8",
 "/app/manifest.json": "f3e22bb75e02",
 "/app/offline.js": "dbf874a821c5"
 }
